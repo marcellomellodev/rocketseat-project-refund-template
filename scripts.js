@@ -46,6 +46,4 @@ form.onsubmit = (event) => {
     amount: amount.value,
     created_at: new Date().toLocaleDateString('pt-BR'),
   }
-
-  console.log(newExpense);
 }
